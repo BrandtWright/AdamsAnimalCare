@@ -1,7 +1,5 @@
 ﻿namespace AdamsAnimalCareConsmerWebsite.Infrastructure.Windsor
 {
-    using System.Linq;
-    using System.Reflection;
     using System.Web.Mvc;
     using Castle.MicroKernel.Registration;
     using Castle.MicroKernel.SubSystems.Configuration;
@@ -15,11 +13,10 @@
     {
         public void Install(IWindsorContainer container, IConfigurationStore store)
         {
-            var contollers = Assembly.GetExecutingAssembly().GetTypes().Where(x => x.BaseType == typeof(Controller)).ToList();
-            foreach (var controller in contollers)
-            {
-                container.Register(Component.For(controller).LifestylePerWebRequest());
-            }
+            container.Register(Classes.FromThisAssembly()
+                .BasedOn<IController>()
+                .Unless(x => x.Name.EndsWith("SessionlessController"))
+                .LifestyleTransient());
         }
     }
 }
