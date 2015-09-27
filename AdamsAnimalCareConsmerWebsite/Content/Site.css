@@ -484,10 +484,8 @@ th {
     text-align: center;
 }
 
-.team-each img {
-    /*float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;*/
+.team-each-container img {
+    height: 200px;
 }
 
 
