@@ -1,14 +1,39 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
+﻿<div class="grid-parent home-primary-block container-full">
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <div class="grid-child home-each">
+        <h2> Enjoy convenient & accessible home healthcare for your pet.</h2>
+        <p>Adam's Animal Care serves pet owners in Northern New Jersey. Have your pet treated at home by our experienced and always caring veterinary pet care professionals.</p>
+    </div>
+
+    <div class="grid-chile home-each">
+        <img src="~/Content/Images/home-page-main-image.PNG" alt="Adan's Animal Care'"/>
+    </div>
+
 </div>
 
-<div class="row">
+<div class="home-secondary grid-parent">
+
+    <div class="home-secondary-each grid-child">
+        <img class="home-secondary-image" src="~/Content/Images/about.png" alt="Met our team" />
+        <p class="home-secondary-blurb">Learn about our qalified processionals</p>
+        <p><a class="btn btn-default theme-primary-color" href="~/home/about">Meet our Team</a></p>
+    </div>
+
+    <div class="home-secondary-each grid-child">
+        <img class="home-secondary-image" src="~/Content/Images/appointments.png" alt="Schedule an appointment."/>
+        <p class="home-secondary-blurb">Call or schedule and appintment</p>
+        <p><a class="btn btn-default theme-primary-color" href="~/home/appointments">Make an Appointment</a></p>
+    </div>
+
+    <div class="home-secondary-each grid-child">
+        <img class="home-secondary-image" src="~/Content/Images/services.jpg" alt="Learn about the services we provide."/>
+        <p class="home-secondary-blurb">Learn about the services we provide.</p>
+        <p><a class="btn btn-default theme-primary-color" href="~/home/services">Our Services</a></p>
+    </div>
+
+</div>
+
+@*<div class="row">
     <div class="col-md-4">
         <h2>Getting started</h2>
         <p>
@@ -28,4 +53,4 @@
         <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
         <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
     </div>
-</div>
+</div>*@

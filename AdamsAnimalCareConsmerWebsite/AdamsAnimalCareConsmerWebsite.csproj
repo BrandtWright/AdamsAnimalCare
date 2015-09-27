@@ -224,6 +224,16 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\appointments.png" />
+    <Content Include="Content\Images\Bios\adam-sniderman.jpg" />
+    <Content Include="Content\Images\Bios\jennifer-deibler.png" />
+    <Content Include="Content\Images\Bios\patricia-hart.jpg" />
+    <Content Include="Content\Images\about.png" />
+    <Content Include="Content\Images\home-page-main-image.PNG" />
+    <Content Include="Content\Images\logo.jpg" />
+    <Content Include="Content\Images\mountains.png" />
+    <Content Include="Content\Images\services.jpg" />
+    <Content Include="Content\reset.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -231,6 +241,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config" />
+    <None Include="Properties\PublishProfiles\AdamsAnimalCareConsmerWebsite.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -243,6 +254,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Shared\favicon.ico" />
+    <Content Include="Views\Shared\HeaderImage.jpg" />
+    <Content Include="Views\Shared\HeaderImage.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -278,6 +292,8 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
+    <Content Include="Views\Home\Services.cshtml" />
+    <Content Include="Views\Home\Appointments.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

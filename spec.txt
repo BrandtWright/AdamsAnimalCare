@@ -1,0 +1,17 @@
+Color One: #CC0000
+Color Two: #CCCCCC
+Color Three: #000000
+
+Title:  Adam's Animal Care
+
+Block: Banner?
+Block: Call to Action
+
+Sections:
+	Home
+	About
+	Services
+	Contact
+	Appointments
+	Resources
+
